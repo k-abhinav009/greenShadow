@@ -2,6 +2,7 @@
   "name": "green_shadow",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://k-abhinav009.github.io/green_shadow",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
@@ -11,6 +12,7 @@
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "emotion": "^10.0.27",
+    "gh-pages": "^6.2.0",
     "material-ui-icons": "^1.0.0-beta.36",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
@@ -27,7 +29,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
