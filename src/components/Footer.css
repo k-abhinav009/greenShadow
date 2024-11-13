@@ -1,0 +1,23 @@
+.main-footer{
+    color:white;
+    background: linear-gradient(to right, #08591c 10%,#22d451);
+    padding-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+   
+    border-bottom: 6px solid blueviolet;
+
+}
+.list-unstyled{
+    list-style-type: none;
+}
+.col{
+    margin:'10px'
+}
+.col-sm{
+    margin-left: 300px;
+    margin-top: -50px;
+}
